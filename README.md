@@ -54,10 +54,19 @@ I’m guided by two core philosophies:
 ---
 
 ## 🌟 What Drives Me  
-            LIFE
+```cpp
+#include <iostream>
+using namespace std;
+
+int Quin() {
+    int breathing = happiness;
+    return breathing;
+}
+```
+
+
 
 ---
-
 ## 📌 Featured Projects
 
 * **TigerVibez** — Campus‑focused web platform for student engagement
