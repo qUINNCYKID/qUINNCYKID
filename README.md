@@ -10,10 +10,7 @@
 
 I'm a Computer Science & IT–focused student and aspiring software engineer with strong interests in **application development, cybersecurity, networking, and systems engineering**. I enjoy turning ideas into practical, real‑world solutions and continuously improving my skills through hands‑on projects.
 
-I’m guided by two core philosophies:
 
-
-> *"Growth is not accidental — it’s engineered."*
 
 ---
 
