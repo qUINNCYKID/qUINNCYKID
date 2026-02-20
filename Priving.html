@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+
+
+    
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Cosmetology Services and Pricing Directory</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&amp;family=Inter:wght@300;400;500;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style type="text/tailwindcss">
+        :root {
+            --primary-cream: #a998d1cc;
+            --soft-gold: #9a59c5;
+            --dusty-rose: #E2B4BD;
+            --deep-charcoal: #2D2D2D;
+            --muted-gold: #7b25c2;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--primary-cream);
+            color: var(--deep-charcoal);
+        }
+        h1, h2, h3, .serif {
+            font-family: 'Inter Display', sans-serif;
+        }
+        .section-card {
+            background: white;
+            border: 1px solid rgba(197, 160, 89, 0.1);
+        }
+        .price-tag {
+            color: var(--soft-gold);
+            font-weight: 600;
+        }
+        .btn-book {
+            background-color: var(--soft-gold);
+            transition: all 0.3s ease;
+        }
+        .btn-book:hover {
+            background-color: var(--muted-gold);
+            transform: translateY(-1px);
+        }
+        .tiered-row:nth-child(even) {
+            background-color: rgba(226, 180, 189, 0.05);
+        }
+    </style>
+</head>
+
+<body class="antialiased">
+<header class="sticky top-0 z-50 w-full border-b border-primary/10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md">
+<div class="mx-auto flex max-w-[1280px] items-center justify-between px-6 py-4 lg:px-18">
+    <a href="http://127.0.0.1:5500/Untitled-1.html" class="flex items-center gap-3">
+        <img alt="Profile" src="IMG_0232.jpg" class="h-18 w-16 rounded-full object-cover border-2 border-white dark:border-slate-900"/>
+        <h2 class="text-xl font-bold tracking-tight text-slate-900 dark:text-white">Booking With <span class="text-primary">TEE</span></h2>
+    </a>
+    <div class="flex flex-1 justify-end gap-8">
+        <div class="flex items-center gap-9">
+            <a class="text-slate-900 text-sm font-medium hover:text-primary transition-colors" href="http://127.0.0.1:5500/Untitled-1.html">Home</a>
+            <a class="text-slate-900 text-sm font-medium hover:text-primary transition-colors" href="#highlights">Services</a>
+            
+        </div>
+        <a class="flex h-10 w-10 items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:text-primary transition-all" href="https://www.instagram.com/theeverdayenvy/">
+            <span class="material-symbols-outlined">photo_camera</span>
+        </a>
+        <a href="http://127.0.0.1:5500/booking.html" class="flex min-w-[120px] cursor-pointer items-center justify-center rounded-full h-10 px-5 bg-primary text-white text-sm font-bold tracking-[0.015em] hover:bg-primary/90 transition-all">
+            Book Now
+        </a>
+    </div>
+</div>
+</header>
+<main class="max-w-6xl mx-auto py-12 px-6">
+<section class="mb-20">
+<div class="flex justify-between items-end mb-8 border-b border-[var(--soft-gold)] pb-4">
+<h2 class="text-3xl font-semibold italic">Prior Services &amp; Add-Ons</h2>
+<a href="http://127.0.0.1:5500/booking.html" class="btn-book text-white px-8 py-2 rounded-full text-sm font-medium tracking-wide uppercase">Book Now</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="section-card p-6 rounded-lg border-l-4 border-l-[var(--dusty-rose)] shadow-sm">
+<div class="flex justify-between items-start mb-3">
+<h3 class="text-xl font-bold">Consultation</h3>
+<span class="text-rose-500 font-bold text-lg uppercase tracking-wider">FREE</span>
+</div>
+<div class="flex items-center text-sm text-gray-500 mb-4">
+<span class="material-symbols-outlined text-sm mr-1">schedule</span> 15 min
+                    </div>
+<p class="text-gray-600 text-sm leading-relaxed">Not sure what to book or thinking about a big change? Let’s talk it through. We’ll go over your hair goals, current condition, and create a game plan that makes sense for your hair and lifestyle.</p>
+</div>
+<div class="section-card p-6 rounded-lg shadow-sm">
+<div class="flex justify-between items-start mb-3">
+<h3 class="text-xl font-bold">Shampoo Service</h3>
+<span class="price-tag text-lg">$25</span>
+</div>
+<div class="flex items-center text-sm text-gray-500 mb-4">
+<span class="material-symbols-outlined text-sm mr-1">schedule</span> 15-30 min
+                    </div>
+<p class="text-gray-600 text-sm leading-relaxed">Includes a thorough shampoo + light condition to prep your hair. Arriving with clean hair is recommended, but happy to provide if needed.</p>
+</div>
+<div class="section-card p-6 rounded-lg shadow-sm">
+<div class="flex justify-between items-start mb-3">
+<h3 class="text-xl font-bold">Deep Conditioning</h3>
+<span class="price-tag text-lg">$45</span>
+</div>
+<div class="flex items-center text-sm text-gray-500 mb-4">
+<span class="material-symbols-outlined text-sm mr-1">schedule</span> 20-40 min
+                    </div>
+<p class="text-gray-600 text-sm leading-relaxed">Restores moisture, strength, and shine. Perfect for dry, brittle, color-treated, or heat-styled hair to improve manageability.</p>
+</div>
+<div class="section-card p-6 rounded-lg shadow-sm">
+<div class="flex justify-between items-start mb-3">
+<h3 class="text-xl font-bold">Take Down Service</h3>
+<span class="price-tag text-lg">$65+</span>
+</div>
+<div class="flex items-center text-sm text-gray-500 mb-4">
+<span class="material-symbols-outlined text-sm mr-1">schedule</span> Varies
+                    </div>
+<p class="text-gray-600 text-sm leading-relaxed">Safely taking down braids, twists, or protective styles. Includes a thorough shampoo to remove buildup for a fresh start.</p>
+</div>
+<div class="section-card p-6 rounded-lg shadow-sm">
+<div class="flex justify-between items-start mb-3">
+<h3 class="text-xl font-bold">Detangle</h3>
+<span class="price-tag text-lg">$30</span>
+</div>
+<div class="flex items-center text-sm text-gray-500 mb-4">
+<span class="material-symbols-outlined text-sm mr-1">schedule</span> 15-45 min
+                    </div>
+<p class="text-gray-600 text-sm leading-relaxed">Required if hair is significantly tangled or matted. Necessary to prevent breakage and maintain hair health.</p>
+</div>
+</div>
+</section>
+<section class="mb-20">
+<div class="flex justify-between items-end mb-8 border-b border-[var(--soft-gold)] pb-4">
+<h2 class="text-3xl font-semibold italic text-[var(--deep-charcoal)]">Locs</h2>
+<a href="http://127.0.0.1:5500/booking.html" class="btn-book text-white px-8 py-2 rounded-full text-sm font-medium tracking-wide uppercase">Book Now</a>
+</div>
+<div class="space-y-6">
+<div class="bg-white p-8 rounded-lg border border-[var(--soft-gold)]/10 flex flex-col md:flex-row gap-8">
+<div class="flex-1">
+<h3 class="text-2xl font-bold mb-2">Starter Locs</h3>
+<div class="flex items-center text-[var(--soft-gold)] mb-4 font-medium">
+<span class="material-symbols-outlined text-sm mr-1">schedule</span> 2-4 hrs
+                        </div>
+<p class="text-gray-600 leading-relaxed italic">Ready to begin your loc journey? This service includes a full consultation, cleanse, and precise parting to create the foundation for your locs using methods like comb coils or two-strand twists.</p>
+</div>
+<div class="md:w-48 flex items-center justify-center border-l border-[var(--dusty-rose)]/30">
+<div class="text-center">
+<span class="block text-sm text-gray-400 uppercase tracking-widest">Starting at</span>
+<span class="text-4xl font-bold text-[var(--soft-gold)]">$150</span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="section-card p-6 rounded-lg">
+<h3 class="text-xl font-bold mb-1">Retwist &amp; Basic Style</h3>
+<span class="text-[var(--soft-gold)] block mb-3">2-3 hrs • $95</span>
+<p class="text-sm text-gray-600">Keep your locs clean, neat, and healthy. Includes a refresh of new growth and a polished basic style to protect your hair.</p>
+</div>
+<div class="section-card p-6 rounded-lg">
+<h3 class="text-xl font-bold mb-1">Retwist &amp; Extreme Style</h3>
+<span class="text-[var(--soft-gold)] block mb-3">2-4+ hrs • $135</span>
+<p class="text-sm text-gray-600">Includes a full retwist plus specialty updos, sculpted designs, or statement braids for a bold look.</p>
+</div>
+<div class="section-card p-6 rounded-lg">
+<h3 class="text-xl font-bold mb-1">Extreme Loc Repair</h3>
+<span class="text-[var(--soft-gold)] block mb-3">3-5 hrs • $200+</span>
+<p class="text-sm text-gray-600">Addresses significant breakage, thinning, or damage. May include re-locking sections or reconstructing locs.</p>
+</div>
+<div class="section-card p-6 rounded-lg">
+<h3 class="text-xl font-bold mb-1">Loc Takedown</h3>
+<span class="text-[var(--soft-gold)] block mb-3">Multiple Day • Consultation Required</span>
+<p class="text-sm text-gray-600">Carefully removes existing locs while protecting your natural hair and scalp. Detailed, safe process.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="mb-20">
+<div class="flex justify-between items-end mb-8 border-b border-[var(--soft-gold)] pb-4">
+<h2 class="text-3xl font-semibold italic text-[var(--deep-charcoal)]">Natural Hair</h2>
+<a href="http://127.0.0.1:5500/booking.html" class="btn-book text-white px-8 py-2 rounded-full text-sm font-medium tracking-wide uppercase">Book Now</a>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+<div class="lg:col-span-7 space-y-6">
+<div class="section-card p-6 rounded-lg">
+<div class="flex justify-between items-center mb-2">
+<h3 class="text-xl font-bold">Wig / Weave Braid down</h3>
+<span class="price-tag">$60</span>
+</div>
+<p class="text-sm text-gray-500 mb-2">1-2.5 hrs</p>
+<p class="text-sm text-gray-600">A clean, secure foundation for wigs/weaves to protect your hair and ensure longevity.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="section-card p-6 rounded-lg">
+<h3 class="text-lg font-bold mb-1">4, 6, 8 Braids</h3>
+<span class="price-tag block mb-2">$75</span>
+<p class="text-xs text-gray-600">2-3.5 hrs. Chunky, statement braids with clean parting.</p>
+</div>
+<div class="section-card p-6 rounded-lg">
+<h3 class="text-lg font-bold mb-1">10 Braids</h3>
+<span class="price-tag block mb-2">$95</span>
+<p class="text-xs text-gray-600">2-3.5 hrs. Medium-sized protective braids.</p>
+</div>
+</div>
+<div class="section-card p-6 rounded-lg bg-white border border-[var(--dusty-rose)]/20">
+<div class="flex justify-between items-center mb-2">
+<h3 class="text-xl font-bold">Silk Press / Flat Iron</h3>
+<span class="price-tag">$85+</span>
+</div>
+<p class="text-sm text-gray-500 mb-2">1-3.5 hrs</p>
+<p class="text-sm text-gray-600">Smooth, sleek, and full of shine. Transforms natural hair while prioritizing health and moisture.</p>
+</div>
+</div>
+<div class="lg:col-span-5">
+<div class="section-card rounded-lg overflow-hidden border border-[var(--soft-gold)]/30">
+<div class="bg-[var(--soft-gold)] p-4 text-white">
+<h3 class="text-xl font-bold">Tiered Styling</h3>
+<p class="text-xs opacity-90">Twists &amp; Invisible Locs</p>
+</div>
+<table class="w-full text-sm text-left">
+<thead class="bg-[var(--primary-cream)] border-b border-[var(--soft-gold)]/20">
+<tr>
+<th class="px-6 py-3 font-semibold">Size</th>
+<th class="px-6 py-3 font-semibold">Duration</th>
+<th class="px-6 py-3 font-semibold">Twists</th>
+<th class="px-6 py-3 font-semibold">Inv. Locs</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tiered-row border-b border-gray-100">
+<td class="px-6 py-4 font-bold">XS</td>
+<td class="px-6 py-4">3-6+ hrs</td>
+<td class="px-6 py-4 font-medium">$180</td>
+<td class="px-6 py-4 font-medium">$220</td>
+</tr>
+<tr class="tiered-row border-b border-gray-100">
+<td class="px-6 py-4 font-bold">SM</td>
+<td class="px-6 py-4">2.5-4 hrs</td>
+<td class="px-6 py-4 font-medium">$140</td>
+<td class="px-6 py-4 font-medium">$175</td>
+</tr>
+<tr class="tiered-row border-b border-gray-100">
+<td class="px-6 py-4 font-bold">MED</td>
+<td class="px-6 py-4">1.5-3 hrs</td>
+<td class="px-6 py-4 font-medium">$110</td>
+<td class="px-6 py-4 font-medium">$135</td>
+</tr>
+<tr class="tiered-row">
+<td class="px-6 py-4 font-bold">LRG</td>
+<td class="px-6 py-4">1-2 hrs</td>
+<td class="px-6 py-4 font-medium">$85</td>
+<td class="px-6 py-4 font-medium">$105</td>
+</tr>
+</tbody>
+</table>
+<div class="p-4 bg-[var(--primary-cream)] text-[10px] text-gray-500 italic uppercase tracking-wider text-center">
+                            Prices vary based on hair length and density
+                        </div>
+</div>
+</div>
+</div>
+</section>
+<section class="mb-20">
+<div class="flex justify-between items-end mb-8 border-b border-[var(--soft-gold)] pb-4">
+<h2 class="text-3xl font-semibold italic text-[var(--deep-charcoal)]">Haircut</h2>
+<a href="http://127.0.0.1:5500/booking.html" class="btn-book text-white px-8 py-2 rounded-full text-sm font-medium tracking-wide uppercase">Book Now</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="section-card p-8 rounded-lg flex gap-6">
+<div class="flex-1">
+<h3 class="text-2xl font-bold mb-2">Haircut / Trim</h3>
+<div class="flex items-center text-gray-500 mb-4 text-sm">
+<span class="material-symbols-outlined text-sm mr-1">schedule</span> 30 min - 1.5 hr
+                        </div>
+<p class="text-gray-600 text-sm">Clean, precise, and tailored to you. Includes a consultation to determine your desired look that enhances your natural shape.</p>
+</div>
+<div class="text-right">
+<span class="text-3xl font-bold text-[var(--soft-gold)]">$45+</span>
+</div>
+</div>
+<div class="section-card p-8 rounded-lg flex gap-6 border-dashed border-2 border-[var(--dusty-rose)]/30">
+<div class="flex-1">
+<h3 class="text-2xl font-bold mb-2">Bangs &amp; Neck Cuts</h3>
+<div class="flex items-center text-gray-500 mb-4 text-sm">
+<span class="material-symbols-outlined text-sm mr-1">schedule</span> 10-30 min
+                        </div>
+<p class="text-gray-600 text-sm">Perfect for shorter styles needing precision. Focuses on trimming bangs and keeping neck-length hair polished.</p>
+</div>
+<div class="text-right">
+<span class="text-3xl font-bold text-[var(--soft-gold)]">$25</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-white border-t border-[var(--dusty-rose)]/20 py-12 px-6">
+<div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center text-[var(--deep-charcoal)]">
+<div class="mb-8 md:mb-0">
+<h2 class="serif text-2xl font-bold tracking-tighter">Cosmetology Services</h2>
+<p class="text-xs text-gray-400 mt-1 uppercase tracking-widest">Natural Hair &amp; Loc Specialist</p>
+</div>
+<div class="flex gap-12 text-sm">
+<div>
+
+</div>
+<div>
+<h4 class="font-bold uppercase mb-4 text-[var(--soft-gold)]">Hours</h4>
+<p class="text-gray-500">Tue - Sat: 9am - 7pm<br/>Sun - Mon: Closed</p>
+</div>
+<div>
+<h4 class="font-bold uppercase mb-4 text-[var(--soft-gold)]">Contact</h4>
+<p class="text-gray-500">hello@hairdesign.com<br/>(555) 000-0000</p>
+</div>
+</div>
+</div>
+<div class="max-w-6xl mx-auto mt-12 pt-8 border-t border-gray-100 text-center text-[10px] text-gray-400 uppercase tracking-widest">
+            © 2026 Cosmetology Services &amp; Pricing Directory. All Rights Reserved.
+        </div>
+</footer>
+
+</body></html>
